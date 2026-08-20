@@ -612,8 +612,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/vendor/etc/qdcm_calib_data_s6e3fa7_cmd_mode_dsi_sdc_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_s6e3fa7_cmd_mode_dsi_sdc_panel.xml \
     vendor/google/bonito/proprietary/vendor/etc/qdcm_calib_data_sofef00_cmd_mode_dsi_sdc_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_sofef00_cmd_mode_dsi_sdc_panel.xml \
     vendor/google/bonito/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
-    vendor/google/bonito/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base.policy \
-    vendor/google/bonito/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext.policy \
+    vendor/google/bonito/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm.policy \
+    vendor/google/bonito/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm.policy \
     vendor/google/bonito/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
     vendor/google/bonito/proprietary/vendor/etc/sensors/config/b4_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/b4_ak991x_0.json \
     vendor/google/bonito/proprietary/vendor/etc/sensors/config/b4_tmd2725_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/b4_tmd2725_0.json \
@@ -1081,7 +1081,6 @@ PRODUCT_PACKAGES += \
     liboemcrypto \
     libperipheral_client \
     libqcbor \
-    libqcodec2 \
     libqisl \
     libqti-utils \
     libqtikeymaster4 \
@@ -1134,6 +1133,12 @@ PRODUCT_PACKAGES += \
     libfastcvdsp_stub \
     libfastcvopt \
     libmaxxaudioqdsp \
+    libqcodec2_base \
+    libqcodec2_basecodec \
+    libqcodec2_core \
+    libqcodec2_platform \
+    libqcodec2_utils \
+    libqcodec2_v4l2codec \
     libstreamparser \
     libswregistrationalgo \
     libvideoutils \
