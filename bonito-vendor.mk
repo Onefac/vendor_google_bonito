@@ -1049,7 +1049,6 @@ PRODUCT_PACKAGES += \
     libdataitems \
     libdiagjni \
     libdisp-aba \
-    libdisplayqos \
     libdrmfs \
     libdrmtime \
     libeaselmanager_client \
@@ -1065,7 +1064,6 @@ PRODUCT_PACKAGES += \
     libgoog_llv_gpu \
     libgsl \
     libhdcpsrm \
-    libhdr_tm \
     libizat_core \
     libkeymasterdeviceutils \
     libkeymasterprovision \
@@ -1085,15 +1083,9 @@ PRODUCT_PACKAGES += \
     libqcbor \
     libqcodec2 \
     libqisl \
-    libqseed3 \
     libqti-utils \
     libqtikeymaster4 \
     librpmb \
-    libsdedrm \
-    libsdm-color \
-    libsdm-diag \
-    libsdm-disp-vndapis \
-    libsdmextension \
     libsdsprpc \
     libsecureui \
     libsecureui_svcsock \
@@ -1115,7 +1107,6 @@ PRODUCT_PACKAGES += \
     libswvdec \
     libsysmon_cdsp_skel \
     libtime_genoff \
-    libtinyxml2_1 \
     libtzdrmgenprov \
     libvsc \
     sensors.ssc \
@@ -1200,11 +1191,14 @@ PRODUCT_PACKAGES += \
     camera.sdm710 \
     com.qti.chi.override \
     libcom.qti.chinodeutils \
+    libdisplayqos \
+    libdisplayskuutils \
     libeaselsystem.blue \
     libgcam \
     libgcam_ae \
     libgcam_frsdk \
     libgoog_pdaf_core_imx363 \
+    libhdr_tm \
     libhexagon_nn_stub \
     libmotion_ae \
     libnos \
@@ -1215,6 +1209,13 @@ PRODUCT_PACKAGES += \
     libnos_transport \
     libnosprotos \
     libpower_anomaly_data \
+    libqseed3 \
+    libsdm-color \
+    libsdm-colormgr-algo \
+    libsdm-diag \
+    libsdm-disp-vndapis \
+    libsdmextension \
+    libtinyxml2_1 \
     libwvhidl \
     nos_app_avb \
     nos_app_identity \
